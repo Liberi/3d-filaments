@@ -1,0 +1,54 @@
+:root {
+	/* Backgrounds */
+	--bg-base: #0f0f11;
+	--bg-card: #17171a;
+	--bg-elevated: #1c1c21;
+	--bg-sunken: #131316;
+	--bg-overlay: #1a1a1f;
+
+	/* Borders */
+	--border-subtle: #222228;
+	--border-default: #2a2a32;
+	--border-strong: #3a3a45;
+
+	/* Text */
+	--text-primary: #f0f0f2;
+	--text-secondary: #888896;
+	--text-muted: #636374;
+	--text-label: #6e6e80;
+
+	/* Brand accent */
+	--color-accent: #863bff;
+	--color-accent-dim: rgba(134, 59, 255, 0.12);
+
+	/* Semantic */
+	--color-success: #3dba72;
+	--color-success-bg: rgba(61, 186, 114, 0.08);
+	--color-success-border: rgba(61, 186, 114, 0.2);
+	--color-danger: #e05050;
+	--color-danger-bg: rgba(224, 80, 80, 0.08);
+	--color-danger-border: rgba(224, 80, 80, 0.2);
+
+	/* Spacing */
+	--sp-1: 4px;
+	--sp-2: 8px;
+	--sp-3: 12px;
+	--sp-4: 16px;
+	--sp-5: 20px;
+	--sp-6: 24px;
+	--sp-8: 32px;
+
+	/* Radii */
+	--r-sm: 6px;
+	--r-md: 10px;
+	--r-lg: 14px;
+	--r-xl: 18px;
+	--r-2xl: 24px;
+
+	/* Shadows */
+	--shadow-card: 0 4px 24px rgba(0, 0, 0, 0.35);
+	--shadow-card-hover: 0 8px 36px rgba(0, 0, 0, 0.5);
+
+	/* Header */
+	--header-h: 64px;
+}

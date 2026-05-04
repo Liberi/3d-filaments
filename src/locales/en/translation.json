@@ -1,0 +1,96 @@
+{
+  "siteTitle": "3D Printing Filaments",
+  "subtitle": "Click a card to see details",
+  "closeHint": "collapse ↑",
+
+  "tags": {
+    "beginner":    "Beginner",
+    "optimal":     "Optimal",
+    "advanced":    "Advanced",
+    "outdoor":     "Outdoor",
+    "rubber":      "Flexible",
+    "engineering": "Engineering"
+  },
+
+  "bars": {
+    "strength":       "Strength",
+    "flexibility":    "Flexibility",
+    "rigidity":       "Rigidity",
+    "tempResistance": "Heat resistance",
+    "printEase":      "Print ease"
+  },
+
+  "propLabels": {
+    "print":    "Print temp",
+    "bed":      "Bed temp",
+    "hdt":      "HDT",
+    "uv":       "UV resistance",
+    "moisture": "Moisture",
+    "price":    "Price"
+  },
+
+  "uv": {
+    "weak":      "Poor",
+    "medium":    "Medium",
+    "excellent": "Excellent"
+  },
+
+  "moist": {
+    "weak":      "Poor",
+    "medium":    "Medium",
+    "good":      "Good",
+    "excellent": "Excellent",
+    "poor":      "Poor (hygroscopic)"
+  },
+
+  "price": {
+    "low":    "Low",
+    "medium": "Medium",
+    "high":   "High"
+  },
+
+  "detail": {
+    "pros":  "Pros",
+    "cons":  "Cons",
+    "usage": "Applications"
+  },
+
+  "filaments": {
+    "pla": {
+      "sub": "Polylactic Acid",
+      "pros": ["Easy to print", "No odor", "Great detail", "Stiff and precise", "Cheap", "Biodegradable"],
+      "cons": ["Brittle on impact", "Deforms above 60 °C", "Not for outdoors", "Not safe for food contact"],
+      "use": "Figurines, prototypes, decor, airsoft targets, interior models"
+    },
+    "petg": {
+      "sub": "Polyethylene Terephthalate",
+      "pros": ["Strong and flexible", "Moisture resistant", "Better heat than PLA", "Good layer adhesion"],
+      "cons": ["Stringing issues", "Less detail than PLA", "Scratches easily", "Flexes — not always wanted"],
+      "use": "Stands, enclosures, brackets, outdoor parts, mechanical components"
+    },
+    "abs": {
+      "sub": "Acrylonitrile Butadiene Styrene",
+      "pros": ["Heat resistant", "Sandable / paintable", "Acetone smoothing", "Lighter than PLA and PETG"],
+      "cons": ["Strong fumes", "Warps without enclosure", "Difficult to print", "Layer delamination without enclosure"],
+      "use": "Auto parts, heat-resistant enclosures, functional components"
+    },
+    "asa": {
+      "sub": "Acrylonitrile Styrene Acrylate",
+      "pros": ["Best for outdoors", "UV stable", "Heat resistant", "Strong"],
+      "cons": ["Difficult to print", "Needs enclosure", "Pricier than ABS", "Fumes during printing"],
+      "use": "Outdoor structures, license plate frames, garden products"
+    },
+    "tpu": {
+      "sub": "Thermoplastic Polyurethane",
+      "pros": ["Rubber-like flexibility", "Absorbs impacts", "Wear resistant", "Won't shatter"],
+      "cons": ["Hard to retract", "Not rigid", "Slow print speed", "Pricier than PLA and PETG"],
+      "use": "Cases, protectors, gaskets, wheels, flexible joints"
+    },
+    "nylon": {
+      "sub": "Polyamide (PA)",
+      "pros": ["Very strong", "Heat resistant", "Slippery (great for gears)", "Tough and flexible"],
+      "cons": ["Absorbs moisture", "Warps easily", "Difficult to print", "Needs drying"],
+      "use": "Gears, bearings, structural parts, engineering prototypes"
+    }
+  }
+}
