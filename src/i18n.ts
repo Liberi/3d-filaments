@@ -11,7 +11,7 @@ i18n.use(LanguageDetector)
 			ru: { translation: ru },
 			en: { translation: en },
 		},
-		fallbackLng: 'ru',
+		fallbackLng: 'en',
 		supportedLngs: ['ru', 'en'],
 		interpolation: { escapeValue: false },
 		detection: {
