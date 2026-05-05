@@ -62,12 +62,15 @@
 	border-radius: 20px;
 	padding: 3px;
 	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	user-select: none;
+	touch-action: manipulation;
 	transition:
 		border-color 0.15s,
 		background 0.15s;
-	}
-	
-	.langBtn:hover {
+}
+
+.langBtn:hover {
 	border-color: rgba(134, 59, 255, 0.35);
 	background: var(--bg-card);
 }
