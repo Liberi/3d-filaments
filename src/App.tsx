@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Header from './components/Header';
 import FilamentGrid from './components/FilamentGrid';
+import Footer from './components/Footer';
 import styles from './App.module.css';
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
 				<p className={styles.subtitle}>{t('subtitle')}</p>
 				<FilamentGrid />
 			</main>
+			<Footer />
 		</>
 	);
 }

@@ -55,6 +55,17 @@
     "usage": "Applications"
   },
 
+  "footer": {
+    "hint": "Found it useful? Leave a reaction!",
+    "madeBy": "Made by",
+    "reactions": {
+      "fire": "Hot",
+      "like": "Useful",
+      "target": "Accurate",
+      "rocket": "Handy"
+    }
+  },
+
   "filaments": {
     "pla": {
       "sub": "Polylactic Acid",
