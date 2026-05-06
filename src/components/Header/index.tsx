@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FilamentSpool } from '../../assets/svg';
 import styles from './styles.module.css';
@@ -5,6 +6,10 @@ import styles from './styles.module.css';
 export default function Header() {
 	const { t, i18n } = useTranslation();
 	const currentLang = i18n.language.startsWith('ru') ? 'ru' : 'en';
+
+	useEffect(() => {
+		document.title = t('siteTitle');
+	}, [i18n.language, t]);
 
 	const toggle = () => {
 		i18n.changeLanguage(currentLang === 'ru' ? 'en' : 'ru');
