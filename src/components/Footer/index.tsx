@@ -11,6 +11,8 @@ import {
 import { isConfigured } from '../../lib/firebase';
 import styles from './styles.module.css';
 
+const OTHER_FILAMENTS = ['PC', 'PP', 'PLA+', 'HIPS', 'PVA', 'Wood-fill', 'Metal-fill', 'PEEK', 'SBS', 'SEBS'];
+
 const ZERO: Counts = { fire: 0, like: 0, target: 0, rocket: 0 };
 
 export default function Footer() {
@@ -61,10 +63,22 @@ export default function Footer() {
 
 				<p className={styles.hint}>{t('footer.hint')}</p>
 
+				<div className={styles.otherSection}>
+					<div className={styles.otherTitle}>{t('footer.otherTitle')}</div>
+					<div className={styles.chips}>
+						{OTHER_FILAMENTS.map(name => (
+							<span key={name} className={styles.chip}>{name}</span>
+						))}
+					</div>
+					<p className={styles.otherBody}>{t('footer.otherBody')}</p>
+				</div>
+
+				<p className={styles.disclaimer}>{t('footer.disclaimer')}</p>
+
 				<div className={styles.credits}>
 					<span>{t('footer.madeBy')}</span>
 					<a
-						href='https://makerworld.com/ru/@Lib_int'
+						href='https://makerworld.com/@Lib_int'
 						target='_blank'
 						rel='noopener noreferrer'
 						className={styles.link}

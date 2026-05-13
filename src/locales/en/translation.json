@@ -55,17 +55,6 @@
     "usage": "Applications"
   },
 
-  "footer": {
-    "hint": "Found it useful? Leave a reaction!",
-    "madeBy": "Made by",
-    "reactions": {
-      "fire": "Hot",
-      "like": "Useful",
-      "target": "Accurate",
-      "rocket": "Handy"
-    }
-  },
-
   "filaments": {
     "pla": {
       "sub": "Polylactic Acid",
@@ -102,6 +91,32 @@
       "pros": ["Very strong", "Heat resistant", "Slippery (great for gears)", "Tough and flexible"],
       "cons": ["Absorbs moisture", "Warps easily", "Difficult to print", "Needs drying"],
       "use": "Gears, bearings, structural parts, engineering prototypes"
+    },
+    "petgcf": {
+      "sub": "Carbon-Fiber PETG",
+      "pros": ["Extremely rigid", "Dimensional stability", "Light for its strength", "Low warping"],
+      "cons": ["Requires hardened nozzle", "More brittle than PETG", "Poor layer adhesion", "Pricier than PETG"],
+      "use": "Drones, rigid frames, mechanical enclosures, brackets, RC models"
+    },
+    "placf": {
+      "sub": "Carbon-Fiber PLA",
+      "pros": ["Maximum rigidity", "Excellent detail", "Lightweight", "Stable dimensions"],
+      "cons": ["Requires hardened nozzle", "Brittle under bending", "Low heat resistance", "Not for outdoors"],
+      "use": "Strong prototypes, drone frames, static load-bearing parts, decorative models"
     }
+  },
+
+  "footer": {
+    "hint": "Found it useful? Leave a reaction!",
+    "madeBy": "Made by",
+    "reactions": {
+      "fire": "Hot",
+      "like": "Useful",
+      "target": "Accurate",
+      "rocket": "Handy"
+    },
+    "otherTitle": "Other FDM filaments",
+    "otherBody": "There are dozens of other FDM filament types — each with its own niche. Some are too specialized, others require industrial hardware. Learn more at All3DP, Prusa Knowledge Base, or MatterHackers.",
+    "disclaimer": "⚠ This information is for reference only, based on general material properties. Actual parameters vary by brand and printer settings — always consult the manufacturer's documentation."
   }
 }

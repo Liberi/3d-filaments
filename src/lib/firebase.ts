@@ -1,5 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getDatabase } from 'firebase/database';
+import { getAnalytics } from 'firebase/analytics';
 
 const firebaseConfig = {
 	apiKey: 'AIzaSyDP6-rv4EpXBTuL0752KNT6x904As1KL6s',
@@ -14,4 +15,6 @@ const firebaseConfig = {
 
 export const isConfigured = !firebaseConfig.apiKey.startsWith('YOUR');
 
-export const db = isConfigured ? getDatabase(initializeApp(firebaseConfig)) : null;
+const app = isConfigured ? initializeApp(firebaseConfig) : null;
+export const db = app ? getDatabase(app) : null;
+if (app) getAnalytics(app);
